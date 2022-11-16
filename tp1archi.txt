@@ -1,0 +1,18 @@
+-utilisation d'une interface dans la classe dessin  au lieu de la liste TrainCercle
+
+
+-essayez d'ajouter a toute objet qui on soit l'afficher dans la zone de dessin une inplementation de l'interface (visage et triancircle)
+
+
+
+-method deplacer undefined sur l'interface IObjectDessinable car elle est définie uniquement pour l'objet dessinable que l'on veut dissner
+solution (créer une nouvelle interface dans le code)
+
+
+-hiérarchie de classe qui permet de représenter des formes graphiques d une maniere correct 
+
+-quand on fait implémenté la method deplacer dans la class poly ou dans la class etoile on doit ajouter dans cette methode beaucoup de conditions if else pour différencier les types de déplacement
+c'est donc une solution moins extensible
+
+-même chose que nous avons fait avec la classe MvtCirculaire  il suffit de remplacer la méthode par les propriétés de mouvement que nous voulons
+  
